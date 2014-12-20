@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\testApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxCsv\src\ofxCsv.cpp">
+      <Filter>addons\ofxCsv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSplashScreen\src\ofxSplashScreen.cpp">
+      <Filter>addons\ofxSplashScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ckas2Dof.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\renderPanorama.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\telemetria.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSvg\src\ofxSvg.cpp">
+      <Filter>addons\ofxSvg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSvg\libs\svgTiny\src\src_colors.cpp">
+      <Filter>addons\ofxSvg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSvg\libs\svgTiny\src\svgtiny.cpp">
+      <Filter>addons\ofxSvg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSvg\libs\svgTiny\src\svgtiny_gradient.cpp">
+      <Filter>addons\ofxSvg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSvg\libs\svgTiny\src\svgtiny_list.cpp">
+      <Filter>addons\ofxSvg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxAppGLFWWindowMulti\src\ofxAppGLFWWindowMulti.cpp">
+      <Filter>addons\multiWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxAppGLFWWindowMulti\src\WindowManager.cpp">
+      <Filter>addons\multiWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.cpp">
+      <Filter>addons\ofxXmlSettings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxml.cpp">
+      <Filter>addons\ofxXmlSettings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxmlerror.cpp">
+      <Filter>addons\ofxXmlSettings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxmlparser.cpp">
+      <Filter>addons\ofxXmlSettings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOculusRift\src\ofxOculusRift.cpp">
+      <Filter>addons\ofxOculusRift</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{131b4357-7a53-4592-b8b7-11e5eb0f819d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{9d11560b-5c22-4ce5-bbee-316e531e7f80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxCsv">
+      <UniqueIdentifier>{72452c18-1517-44c3-9b09-8e84a6a6ad00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxSplashScreen">
+      <UniqueIdentifier>{3b1a729e-4255-44ca-8514-efcc37d3f6ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxSvg">
+      <UniqueIdentifier>{b565ff34-9ca8-440f-827c-259fa4efcf73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\multiWindow">
+      <UniqueIdentifier>{b9277779-2b19-4f21-a5fa-1f39e63df864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXmlSettings">
+      <UniqueIdentifier>{d602e3e1-96ff-404b-a1f2-ca075ec1c10e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxOculusRift">
+      <UniqueIdentifier>{74463328-859e-4f1b-a379-833657455c6f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\testApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxCsv\src\ofxCsv.h">
+      <Filter>addons\ofxCsv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSplashScreen\src\ofxSplashScreen.h">
+      <Filter>addons\ofxSplashScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ckas2Dof.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\renderPanorama.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\telemetria.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSvg\src\ofxSvg.h">
+      <Filter>addons\ofxSvg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSvg\libs\svgTiny\src\svgtiny.h">
+      <Filter>addons\ofxSvg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSvg\libs\svgTiny\src\svgtiny_internal.h">
+      <Filter>addons\ofxSvg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxAppGLFWWindowMulti\src\ofxAppGLFWWindowMulti.h">
+      <Filter>addons\multiWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxAppGLFWWindowMulti\src\WindowManager.h">
+      <Filter>addons\multiWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.h">
+      <Filter>addons\ofxXmlSettings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxXmlSettings\libs\tinyxml.h">
+      <Filter>addons\ofxXmlSettings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOculusRift\src\ofxOculusRift.h">
+      <Filter>addons\ofxOculusRift</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+</Project>

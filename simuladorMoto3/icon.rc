@@ -1,0 +1,8 @@
+// Icon Resource Definition
+#define MAIN_ICON                       102
+
+#if defined(_DEBUG)
+MAIN_ICON               ICON                    "..\..\..\libs\openFrameworksCompiled\project\vs\estrella.ico"
+#else
+MAIN_ICON               ICON                    "..\..\..\libs\openFrameworksCompiled\project\vs\estrella.ico"
+#endif
